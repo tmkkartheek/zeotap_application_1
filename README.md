@@ -36,9 +36,7 @@ Use Postman or curl to create a rule:
 curl -X POST http://127.0.0.1:5000/create_rule -H "Content-Type: application/json" -d "{\"name\": \"test_rule\", \"rule\": \"(age > 30 AND department == 'Sales')\"}"
 ```
 
-
-
-![Screenshot (247)](https://github.com/user-attachments/assets/34a11d7f-88e6-4670-b82e-6a88e0724608)
+![image](https://github.com/user-attachments/assets/be5676bc-5b2c-45ff-a1ce-3934a1833b6c)
 
 
 #### **Get Rules**
@@ -47,7 +45,7 @@ To retrieve all rules:
 curl -X GET http://127.0.0.1:5000/get_rules
 ```
 
-![Screenshot (248)](https://github.com/user-attachments/assets/3458dfaa-c4a4-43f4-bc68-7a8e2a9f8ba0)
+![image](https://github.com/user-attachments/assets/0a9258f6-985d-4bea-86be-2295def9b857)
 
 
 ### 7. **Push to GitHub**
